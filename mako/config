@@ -1,0 +1,22 @@
+# mako config file
+
+# how many visible notifications at once
+max-visible=5
+
+# default timeout (in milliseconds) for notifications
+default-timeout=4000
+
+# position on the screen
+anchor=top-right
+
+# notification format: summary, body, etc.
+format=%s\n%b
+
+# style / colors
+background-color=#1e1e1e
+text-color=#ffffff
+border-color=#2e2e2e
+
+# on urgent notifications override style
+[urgency=high]
+text-color=#ff5555
