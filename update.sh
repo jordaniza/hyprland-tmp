@@ -4,3 +4,4 @@
 mkdir -p ~/.config/mako/ ~/.config/waybar/
 cp -r mako/* ~/.config/mako/ 2>/dev/null || echo "Failed to copy mako config"
 cp -r waybar/* ~/.config/waybar/ 2>/dev/null || echo "Failed to copy waybar config"
+cp -r wofi/* ~/.config/wofi/ 2>/dev/null || echo "Failed to copy wofi config"

@@ -20,7 +20,9 @@
     ],
     // Modules configuration
      "hyprland/workspaces": {
-        
+	"active-only": false,
+        "all-outputs": true,
+	"sort-by-number": true
     },
     "keyboard-state": {
         "numlock": true,
