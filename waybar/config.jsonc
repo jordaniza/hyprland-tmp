@@ -73,7 +73,7 @@
     "format-connected": " {device_battery_percentage}%  |",
     "format-off": "󰂲",
     "tooltip": "{device_name}\nBattery: {device_battery_percentage}%",
-    "on-click": "kitty -e bluetuith",
+    "on-click": "kitty -T bluetuith -e bluetuith",
   },
 
   "pulseaudio": {
@@ -87,7 +87,7 @@
       "headphone": "",
       "default": ["", "", ""],
     },
-    "on-click": "kitty -e pulsemixer",
+    "on-click": "kitty -T pulsemixer -e pulsemixer",
   },
 
   "network": {
@@ -96,7 +96,7 @@
     "format-wifi": "{essid} {signalStrength}% ",
     "format-disconnected": "⚠",
     "tooltip-format": "{ifname} → {ipaddr}",
-    "on-click": "kitty -e nmtui",
+    "on-click": "kitty -T nmtui -e nmtui",
   },
 
   "custom/power": {
